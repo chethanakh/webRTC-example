@@ -1,0 +1,18 @@
+{
+  "name": "webrtc-example",
+  "version": "1.0.0",
+  "description": "## create certificate file 1. `npm install mkcert` 2. `npx mkcert create-ca` 3. `npx mkcert create-cert` 4. OPTIONAL: to run it locally, update the files with your local IP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chethana kalpa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mkcert": "^3.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
